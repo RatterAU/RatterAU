@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="286" viewBox="0 0 380 286" role="img" aria-label="Bookie price board: Sale race 1, three runners with win prices in lime and place prices in yellow">
+  <defs>
+    <clipPath id="card"><rect width="380" height="286" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="380" height="286" fill="#FFFFFF"/>
+
+    <!-- state banner: NSW green -->
+    <rect width="380" height="64" fill="#0D7047"/>
+    <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="18" y="34" font-size="27" font-weight="900" fill="#FFFFFF">SALE</text>
+      <text x="18" y="53" font-size="13" font-weight="700" letter-spacing="0.5" fill="#FADC40">RACE 1 &#183; 2200m</text>
+      <text x="362" y="38" font-size="27" font-weight="900" fill="#FFFFFF" text-anchor="end">51m</text>
+    </g>
+
+    <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <!-- row 1 -->
+      <circle cx="40" cy="100" r="22" fill="#C71F1A"/>
+      <text x="40" y="109" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="74" y="109" font-size="21" font-weight="800" fill="#171A1F">RAINY NIGHT</text>
+      <rect x="224" y="76" width="142" height="48" rx="9" fill="#0F0F0F"/>
+      <rect x="295" y="76" width="4" height="48" fill="#9E9E9E"/>
+      <text x="259" y="109" font-size="24" font-weight="900" fill="#6BFF1A" text-anchor="middle">1.95</text>
+      <text x="332" y="109" font-size="24" font-weight="900" fill="#FFDE0D" text-anchor="middle">1.12</text>
+      <rect y="134" width="380" height="3" fill="#2E2E2E"/>
+
+      <!-- row 2 -->
+      <circle cx="40" cy="174" r="22" fill="#C71F1A"/>
+      <text x="40" y="183" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+      <text x="74" y="183" font-size="21" font-weight="800" fill="#171A1F">HIGHLAND</text>
+      <rect x="224" y="150" width="142" height="48" rx="9" fill="#0F0F0F"/>
+      <rect x="295" y="150" width="4" height="48" fill="#9E9E9E"/>
+      <text x="259" y="183" font-size="24" font-weight="900" fill="#6BFF1A" text-anchor="middle">67</text>
+      <text x="332" y="183" font-size="24" font-weight="900" fill="#FFDE0D" text-anchor="middle">8.00</text>
+      <rect y="208" width="380" height="3" fill="#2E2E2E"/>
+
+      <!-- row 3 -->
+      <circle cx="40" cy="248" r="22" fill="#C71F1A"/>
+      <text x="40" y="257" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">8</text>
+      <text x="74" y="257" font-size="21" font-weight="800" fill="#171A1F">WINGS</text>
+      <rect x="224" y="224" width="142" height="48" rx="9" fill="#0F0F0F"/>
+      <rect x="295" y="224" width="4" height="48" fill="#9E9E9E"/>
+      <text x="259" y="257" font-size="24" font-weight="900" fill="#6BFF1A" text-anchor="middle">5.50</text>
+      <text x="332" y="257" font-size="24" font-weight="900" fill="#FFDE0D" text-anchor="middle">1.55</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="379" height="285" rx="14" fill="none" stroke="#000000" stroke-opacity="0.12"/>
+  </g>
+</svg>
