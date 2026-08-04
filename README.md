@@ -41,9 +41,29 @@ SPY is not SPX ÷ 10. The ratio drifts, and on 0DTE that drift is a whole strike
 
 Quote tiles, the live ratio, a depth picker and the strike ladder with the spot band. Opens in the browser: no install, no signup, no key.
 
-[Open it](https://ratterau.github.io/tenfold/) · one HTML file, 27 KB, no dependencies, no build step, no tracking.
+[Try it here](https://ratterau.github.io/tenfold/) · one HTML file, 27 KB, no dependencies, no build step, no tracking.
 
 `HTML` · `Vanilla JS` · `0DTE` · `SPX/SPY`
+
+</td>
+</tr>
+<tr>
+<td width="200" valign="top">
+<a href="https://github.com/RatterAU/basis"><img src="https://raw.githubusercontent.com/RatterAU/basis/main/docs/card.svg" width="190" alt="BASIS average cost card"></a>
+</td>
+<td valign="top">
+
+### [BASIS](https://github.com/RatterAU/basis)
+
+What the position actually cost you, and what the next buy does to it.
+
+Ten contracts at $1.00 and one at $2.00 is not a $1.50 average, it is $1.09 — which is the arithmetic people do in their head at the exact moment it matters most.
+
+Fills go in, the weighted average comes out in money rather than points. Model the next buy before committing it, watch the curve flatten toward a price it can never reach, or ask it the inverse: how many at $0.55 to get the average to $0.80.
+
+[Try it here](https://ratterau.github.io/basis/) · one HTML file, no dependencies, no build step, no tracking.
+
+`HTML` · `Vanilla JS` · `0DTE` · `Cost basis`
 
 </td>
 </tr>
