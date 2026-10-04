@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/RatterAU/AdelaideTransit/main/docs/profile-banner.svg?v=2" width="480" alt="RatterAU — I build apps for things I want a better version of">
+<img src="https://raw.githubusercontent.com/RatterAU/RatterAU/main/docs/profile-banner.svg" width="480" alt="RatterAU — I build apps for things I want a better version of">
 
 If the app doesn't exist, I make it. If it exists but does half of what I need, I make that too.
 
@@ -23,6 +23,8 @@ Tap a stop, see what's really coming. Tap a departure, follow the bus itself: it
 
 No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off the public GTFS feeds.
 
+[How to install](https://github.com/RatterAU/AdelaideTransit#install-it) · iPhone app, no App Store listing. You build it yourself in Xcode: free, about ten minutes.
+
 `Swift 6` · `SwiftUI` · `MapKit` · `SQLite` · `GTFS-realtime`
 
 </td>
@@ -41,7 +43,7 @@ SPY is not SPX ÷ 10. The ratio drifts, and on 0DTE that drift is a whole strike
 
 Quote tiles, the live ratio, a depth picker and the strike ladder with the spot band. Opens in the browser: no install, no signup, no key.
 
-[Try it here](https://ratterau.github.io/tenfold/) · one HTML file, 27 KB, no dependencies, no build step, no tracking.
+[Try it here](https://ratterau.github.io/tenfold/) · one HTML file, no dependencies, no build step, no tracking.
 
 `HTML` · `Vanilla JS` · `0DTE` · `SPX/SPY`
 
@@ -63,7 +65,7 @@ Fills go in, the weighted average comes out in money rather than points. Model t
 
 [Try it here](https://ratterau.github.io/basis/) · one HTML file, no dependencies, no build step, no tracking.
 
-`HTML` · `Vanilla JS` · `0DTE` · `Cost basis`
+`HTML` · `Vanilla JS` · `Options` · `Cost basis`
 
 </td>
 </tr>
@@ -79,7 +81,9 @@ An on-course bookmaker's satchel, on a Mac.
 
 Fielding a race meeting is a speed problem wearing a maths problem's clothes. The arithmetic is easy. Doing it while a punter is mid-sentence and eleven other people are holding cash is not.
 
-So: stake, runner, one letter, and the docket prints on the keystroke — the stake box takes digits only, which is what frees a letter up to be a command. Frame the market yourself and it stays framed as the market moves under it. Punter-facing boards on two TVs, each knowing which state it is showing. Settlement that pays whichever place terms are better, the ones sold or the ones final, so nobody ends up worse off than the paper in their hand.
+So: stake, runner, one letter, and the docket prints on the keystroke. Price boards for up to four TVs, and settlement that never leaves a punter worse off than the paper in their hand.
+
+[How to install](https://github.com/RatterAU/Bookie#install) · Mac app for macOS 14+. You build it yourself with Apple's free Command Line Tools, no Xcode needed.
 
 `Swift` · `SwiftUI` · `SQLite` · `Combine` · `ESC/POS over USB`
 
