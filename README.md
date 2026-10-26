@@ -2,7 +2,7 @@
 
 If the app doesn't exist, I make it. If it exists but does half of what I need, I make that too.
 
-Australian. Swift, mostly. Everything here runs on the device, talks straight to the source, and keeps no account of you.
+Australian. Swift and Kotlin, mostly. Everything here runs on the device, talks straight to the source, and keeps no account of you.
 
 <br>
 
@@ -26,6 +26,28 @@ No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off t
 [How to install](https://github.com/RatterAU/AdelaideTransit#install-it) · iPhone app, no App Store listing. You build it yourself in Xcode: free, about ten minutes.
 
 `Swift 6` · `SwiftUI` · `MapKit` · `SQLite` · `GTFS-realtime`
+
+</td>
+</tr>
+<tr>
+<td width="200" valign="top">
+<a href="https://github.com/RatterAU/Contrail"><img src="https://raw.githubusercontent.com/RatterAU/Contrail/main/docs/demo.gif" width="190" alt="Contrail demo"></a>
+</td>
+<td valign="top">
+
+### [Contrail](https://github.com/RatterAU/Contrail)
+
+A flight tracker for Android with no ads, no paywalls and no nonsense.
+
+Every flight tracker shows you a plane, then an ad, then a subscription for the route. The data underneath is free: aircraft broadcast their own position, and volunteers share it. So I built the one that just does the job.
+
+See a plane, tap it: where it came from, where it's going and when it lands, the exact aircraft, its registration and age, and a photo of that very plane. A route is only shown as fact once the plane's position and heading agree with it.
+
+No accounts, no API keys, no backend, nothing running when it's closed. Kotlin, Jetpack Compose and MapLibre, straight off the public ADS-B feeds.
+
+[How to install](https://github.com/RatterAU/Contrail#install-it) · Android app, no Play Store listing. Download the APK from Releases and open it: about two minutes.
+
+`Kotlin` · `Jetpack Compose` · `MapLibre` · `Ktor` · `ADS-B`
 
 </td>
 </tr>
