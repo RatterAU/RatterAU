@@ -37,17 +37,17 @@ No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off t
 
 ### [Contrail](https://github.com/RatterAU/Contrail)
 
-A flight tracker for Android with no ads, no paywalls and no nonsense.
+A flight tracker for Android and iPhone with no ads, no paywalls and no nonsense.
 
 Every flight tracker shows you a plane, then an ad, then a subscription for the route. The data underneath is free: aircraft broadcast their own position, and volunteers share it. So I built the one that just does the job.
 
-See a plane, tap it: where it came from, where it's going and when it lands, the exact aircraft, its registration and age, and a photo of that very plane. A route is only shown as fact once the plane's position and heading agree with it.
+See a plane, tap it: where it came from, where it's going and when it lands, the exact aircraft, its registration and age, and a photo of that very plane. A route is only shown as fact once the plane's position and heading agree with it. When the published route is wrong, it reads the real one off where the plane actually flew.
 
-No accounts, no API keys, no backend, nothing running when it's closed. Kotlin, Jetpack Compose and MapLibre, straight off the public ADS-B feeds.
+No accounts, no API keys, no backend, nothing running when it's closed. Kotlin and Jetpack Compose on Android, SwiftUI and MapKit on iPhone, straight off the public ADS-B feeds.
 
-[How to install](https://github.com/RatterAU/Contrail#install-it) · Android app, no Play Store listing. Download the APK from Releases and open it: about two minutes.
+[How to install](https://github.com/RatterAU/Contrail#install-it) · No store listing. Android: download the APK from Releases, about two minutes. iPhone: build it yourself in Xcode, free, about ten minutes.
 
-`Kotlin` · `Jetpack Compose` · `MapLibre` · `Ktor` · `ADS-B`
+`Kotlin` · `Jetpack Compose` · `Swift 6` · `SwiftUI` · `MapKit` · `ADS-B`
 
 </td>
 </tr>
