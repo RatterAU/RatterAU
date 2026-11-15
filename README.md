@@ -2,24 +2,24 @@
 
 If the app doesn't exist, I make it. If it exists but does half of what I need, I make that too.
 
-Australian. Swift and Kotlin, mostly. Everything here runs on the device, talks straight to the source, and keeps no account of you.
+Swift and Kotlin, mostly. Everything here runs on the device, talks straight to the source, and keeps no account of you.
 
 <br>
 
 <table>
 <tr>
 <td width="200" valign="top">
-<a href="https://github.com/RatterAU/Alembic"><img src="https://raw.githubusercontent.com/RatterAU/Alembic/main/docs/screenshots/media.png" width="190" alt="Alembic: Spring, a Blender open movie, looked up with its quality, codec and container choices"></a>
+<a href="https://github.com/RatterAU/Alembic"><img src="https://raw.githubusercontent.com/RatterAU/Alembic/main/docs/screenshots/media-dark.png" width="190" alt="Alembic in dark mode: Spring, a Blender open movie, looked up with its quality, codec and container choices"></a>
 </td>
 <td valign="top">
 
 ### [Alembic](https://github.com/RatterAU/Alembic)
 
-yt-dlp as a real iPhone app.
+Any video, straight onto your iPhone. No computer, no cable, no dodgy websites.
 
-yt-dlp is the best downloader there is, and it lives in a terminal. iOS apps can't run other programs, so every "downloader app" is really a front end for someone else's server. I put the whole thing inside the app instead: the real yt-dlp on embedded Python, FFmpeg compiled in as a library, and YouTube's challenges solved in a locked-down WebKit page.
+Getting a video onto your phone usually means opening the laptop, fighting a downloader site full of ads and fake buttons for a file in whatever quality it felt like, then a cable, AirDrop or a round trip through the cloud. Ten minutes and two devices for one video. So I built the proper way: copy the link, paste it, tap Download, done.
 
-Paste a link from YouTube, X, Instagram, TikTok or any of the sites yt-dlp supports, and take exactly what you want: any quality, codec or container, audio only, a clip by time or chapter, a whole playlist. Cover art, chapters and subtitles go into the file, and SponsorBlock cuts the sponsors out without re-encoding.
+It's the real yt-dlp running on the phone itself, with FFmpeg compiled in and YouTube's challenges solved in a locked-down WebKit page. Any quality, codec or container, audio only, a clip by time or chapter, whole playlists. Cover art, chapters and subtitles go into the file, and SponsorBlock cuts the sponsors out without re-encoding.
 
 No accounts, no ads, no server. yt-dlp keeps itself current, from signature-checked official releases only.
 
@@ -31,7 +31,7 @@ No accounts, no ads, no server. yt-dlp keeps itself current, from signature-chec
 </tr>
 <tr>
 <td width="200" valign="top">
-<a href="https://github.com/RatterAU/Contrail"><img src="https://raw.githubusercontent.com/RatterAU/Contrail/main/docs/demo.gif" width="190" alt="Contrail demo"></a>
+<a href="https://github.com/RatterAU/Contrail"><img src="https://raw.githubusercontent.com/RatterAU/Contrail/main/docs/demo-ios.gif" width="190" alt="Contrail on iPhone: tapping a Virgin Australia 737 on final approach into Adelaide opens its sheet, draws its path, then scrolls through its flight profile, photo and aircraft details"></a>
 </td>
 <td valign="top">
 
