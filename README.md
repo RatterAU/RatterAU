@@ -9,23 +9,23 @@ Australian. Swift and Kotlin, mostly. Everything here runs on the device, talks 
 <table>
 <tr>
 <td width="200" valign="top">
-<a href="https://github.com/RatterAU/AdelaideTransit"><img src="https://raw.githubusercontent.com/RatterAU/AdelaideTransit/main/docs/demo.gif" width="190" alt="Adelaide Transit demo"></a>
+<a href="https://github.com/RatterAU/Alembic"><img src="https://raw.githubusercontent.com/RatterAU/Alembic/main/docs/screenshots/media.png" width="190" alt="Alembic: Spring, a Blender open movie, looked up with its quality, codec and container choices"></a>
 </td>
 <td valign="top">
 
-### [Adelaide Transit](https://github.com/RatterAU/AdelaideTransit)
+### [Alembic](https://github.com/RatterAU/Alembic)
 
-Live tracking for every Adelaide Metro bus, tram and train.
+yt-dlp as a real iPhone app.
 
-The official app tells you when a bus is *scheduled*. Standing at a stop in the rain, that's the wrong number — so I built the one that shows where the bus actually is, how late it actually is, and whether I can still make it on foot.
+yt-dlp is the best downloader there is, and it lives in a terminal. iOS apps can't run other programs, so every "downloader app" is really a front end for someone else's server. I put the whole thing inside the app instead: the real yt-dlp on embedded Python, FFmpeg compiled in as a library, and YouTube's challenges solved in a locked-down WebKit page.
 
-Tap a stop, see what's really coming. Tap a departure, follow the bus itself: its speed, how many seconds ago it reported, every stop still ahead of it.
+Paste a link from YouTube, X, Instagram, TikTok or any of the sites yt-dlp supports, and take exactly what you want: any quality, codec or container, audio only, a clip by time or chapter, a whole playlist. Cover art, chapters and subtitles go into the file, and SponsorBlock cuts the sponsors out without re-encoding.
 
-No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off the public GTFS feeds.
+No accounts, no ads, no server. yt-dlp keeps itself current, from signature-checked official releases only.
 
-[How to install](https://github.com/RatterAU/AdelaideTransit#install-it) · iPhone app, no App Store listing. You build it yourself in Xcode: free, about ten minutes.
+[How to install](https://github.com/RatterAU/Alembic#install-it) · iPhone app, no App Store listing. Add my [LiveContainer source](https://ratterau.github.io/apps/) and install it from there.
 
-`Swift 6` · `SwiftUI` · `MapKit` · `SQLite` · `GTFS-realtime`
+`SwiftUI` · `Python 3.13` · `yt-dlp` · `FFmpeg` · `WebKit`
 
 </td>
 </tr>
@@ -45,9 +45,31 @@ See a plane, tap it: where it came from, where it's going and when it lands, the
 
 No accounts, no API keys, no backend, nothing running when it's closed. Kotlin and Jetpack Compose on Android, SwiftUI and MapKit on iPhone, straight off the public ADS-B feeds.
 
-[How to install](https://github.com/RatterAU/Contrail#install-it) · No store listing. Android: download the APK from Releases, about two minutes. iPhone: build it yourself in Xcode, free, about ten minutes.
+[How to install](https://github.com/RatterAU/Contrail#install-it) · No store listing. Android: download the APK from Releases, about two minutes. iPhone: add my [LiveContainer source](https://ratterau.github.io/apps/) and install it from there, or build it yourself in Xcode.
 
 `Kotlin` · `Jetpack Compose` · `Swift 6` · `SwiftUI` · `MapKit` · `ADS-B`
+
+</td>
+</tr>
+<tr>
+<td width="200" valign="top">
+<a href="https://github.com/RatterAU/AdelaideTransit"><img src="https://raw.githubusercontent.com/RatterAU/AdelaideTransit/main/docs/demo.gif" width="190" alt="Adelaide Transit demo"></a>
+</td>
+<td valign="top">
+
+### [Adelaide Transit](https://github.com/RatterAU/AdelaideTransit)
+
+Live tracking for every Adelaide Metro bus, tram and train.
+
+The official app tells you when a bus is *scheduled*. Standing at a stop in the rain, that's the wrong number — so I built the one that shows where the bus actually is, how late it actually is, and whether I can still make it on foot.
+
+Tap a stop, see what's really coming. Tap a departure, follow the bus itself: its speed, how many seconds ago it reported, every stop still ahead of it.
+
+No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off the public GTFS feeds.
+
+[How to install](https://github.com/RatterAU/AdelaideTransit#install-it) · iPhone app, no App Store listing. Add my [LiveContainer source](https://ratterau.github.io/apps/) and install it from there, or build it yourself in Xcode.
+
+`Swift 6` · `SwiftUI` · `MapKit` · `SQLite` · `GTFS-realtime`
 
 </td>
 </tr>
