@@ -31,50 +31,6 @@ No accounts, no ads, no server. yt-dlp keeps itself current, from signature-chec
 </tr>
 <tr>
 <td width="200" valign="top">
-<a href="https://github.com/RatterAU/Contrail"><img src="https://raw.githubusercontent.com/RatterAU/Contrail/main/docs/demo-ios.gif" width="190" alt="Contrail on iPhone: tapping a Virgin Australia 737 on final approach into Adelaide opens its sheet, draws its path, then scrolls through its flight profile, photo and aircraft details"></a>
-</td>
-<td valign="top">
-
-### [Contrail](https://github.com/RatterAU/Contrail)
-
-A flight tracker for Android and iPhone with no ads, no paywalls and no nonsense.
-
-Every flight tracker shows you a plane, then an ad, then a subscription for the route. The data underneath is free: aircraft broadcast their own position, and volunteers share it. So I built the one that just does the job.
-
-See a plane, tap it: where it came from, where it's going and when it lands, the exact aircraft, its registration and age, and a photo of that very plane. A route is only shown as fact once the plane's position and heading agree with it. When the published route is wrong, it reads the real one off where the plane actually flew.
-
-No accounts, no API keys, no backend, nothing running when it's closed. Kotlin and Jetpack Compose on Android, SwiftUI and MapKit on iPhone, straight off the public ADS-B feeds.
-
-[How to install](https://github.com/RatterAU/Contrail#install-it) · No store listing. Android: download the APK from Releases, about two minutes. iPhone: add my [LiveContainer source](https://ratterau.github.io/apps/) and install it from there, or build it yourself in Xcode.
-
-`Kotlin` · `Jetpack Compose` · `Swift 6` · `SwiftUI` · `MapKit` · `ADS-B`
-
-</td>
-</tr>
-<tr>
-<td width="200" valign="top">
-<a href="https://github.com/RatterAU/AdelaideTransit"><img src="https://raw.githubusercontent.com/RatterAU/AdelaideTransit/main/docs/demo.gif" width="190" alt="Adelaide Transit demo"></a>
-</td>
-<td valign="top">
-
-### [Adelaide Transit](https://github.com/RatterAU/AdelaideTransit)
-
-Live tracking for every Adelaide Metro bus, tram and train.
-
-The official app tells you when a bus is *scheduled*. Standing at a stop in the rain, that's the wrong number — so I built the one that shows where the bus actually is, how late it actually is, and whether I can still make it on foot.
-
-Tap a stop, see what's really coming. Tap a departure, follow the bus itself: its speed, how many seconds ago it reported, every stop still ahead of it.
-
-No accounts, no backend, no analytics. SwiftUI, on-device SQLite, straight off the public GTFS feeds.
-
-[How to install](https://github.com/RatterAU/AdelaideTransit#install-it) · iPhone app, no App Store listing. Add my [LiveContainer source](https://ratterau.github.io/apps/) and install it from there, or build it yourself in Xcode.
-
-`Swift 6` · `SwiftUI` · `MapKit` · `SQLite` · `GTFS-realtime`
-
-</td>
-</tr>
-<tr>
-<td width="200" valign="top">
 <a href="https://github.com/RatterAU/tenfold"><img src="https://raw.githubusercontent.com/RatterAU/tenfold/main/docs/chain.png" width="190" alt="TENFOLD strike ladder"></a>
 </td>
 <td valign="top">
